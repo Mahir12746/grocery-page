@@ -44,7 +44,7 @@
               Poppins: "Poppins, sans-serif",
             },
             backgroundImage: {
-              leaf1: "url('./images/leaf01.png')",
+              leaf: "url('./images/leaf01.png')",
               call_to_action: "url('./images/call.png')",
             },
           },
@@ -95,13 +95,13 @@
           </div>
           <div class="navbar-end">
             <div class="flex items-center gap-5 text-lg">
-                <button class="flex items-center gap-2 font-semibold text-accent">
-                    <span>$20.00</span>
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </button>
-                <button>
-                    <i class="fa-solid fa-user"></i>
-                </button>
+              <button class="flex items-center gap-2 font-semibold text-accent">
+                <span>$20.00</span>
+                <i class="fa-solid fa-cart-shopping"></i>
+              </button>
+              <button>
+                <i class="fa-solid fa-user"></i>
+              </button>
             </div>
             <div class="dropdown">
               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -141,6 +141,33 @@
           </div>
         </div>
       </nav>
+
+      <!-- banner section starts -->
+      <section class=" bg-leaf bg-no-repeat bg-right-bottom">
+        <div class="w-full h-full bg-body bg-opacity-90">
+          <div class="lg:w-9/12 mx-auto py-28 flex sm:flex-row flex-col items-center">
+            <div class="flex-1">
+              <img src="images/bannerbg.png" alt="" />
+            </div>
+            <div class="flex-1 sm:text-left text-center">
+              <h4 class="text-xl font-semibold my-5">Best Quality Products</h4>
+              <h1 class="lg:text-6xl text-4xl font-semibold leading-tight">Join The Orgsnic Movement!</h1>
+              <p class="my-5 text-lg">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt,
+                voluptas?
+              </p>
+              <div class="flex sm:justify-start justify-center">
+                <button class="flex items-center gap-2 rounded-md bg-accent hover:bg-primary text-white px-10 py-4">
+                  <span>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    shop now
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </header>
   </body>
 </html>
